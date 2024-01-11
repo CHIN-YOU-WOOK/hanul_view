@@ -57,6 +57,12 @@ a, a:link {
 .justify-between {
 	justify-content: space-between
 }
+.bg-black {
+	background-color: #000000;
+	
+}
+
+
 
 /* ================= header ================== */
 
@@ -132,12 +138,17 @@ a, a:link {
 
 /* ======================== main > icons ======================= */
 .icon:hover .over{
-	opacity: 1
-	
+	opacity: 1; 
 }
 
 .over{
 	opacity: 0; 
-	
 }
+
+
+
+
+
+
+
  
