@@ -47,6 +47,10 @@ a, a:link {
 	padding-top: 50px;
 	padding-bottom: 100px;	
 }
+.justity-between{
+	justify-content: space-between;
+	
+}	
 	
 
 /* ================= header =================== */
