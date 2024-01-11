@@ -12,6 +12,12 @@ a, a:link {
 	text-decoration: none;
 }
 
+hr {
+	border: 0;
+	height: 1px;
+	background-color: #cccccc
+}
+
 .container {
 	max-width: 1000px;
 } 
@@ -36,6 +42,14 @@ a, a:link {
 .mt-100 { /* margin top : mt */
 	margin-top: 100px
 }
+.my-10 {
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+.my-30 {
+	margin-top: 30px;
+	margin-bottom: 30px
+}
 .my-50 {
 	margin-top: 50px;
 	margin-bottom: 50px
@@ -58,12 +72,8 @@ a, a:link {
 	justify-content: space-between
 }
 .bg-black {
-	background-color: #000000;
-	
+	background-color: #000000
 }
-
-
-
 /* ================= header ================== */
 
 #header {
@@ -137,18 +147,17 @@ a, a:link {
 
 
 /* ======================== main > icons ======================= */
-.icon:hover .over{
-	opacity: 1; 
+.icon:hover .over, .video:hover .over {
+	opacity: 1; /* 100% 불투명도 : 선명 */
+}
+.over {
+	opacity: 0; /* 0% 불투명도 : 투명 */
 }
 
-.over{
-	opacity: 0; 
-}
-
-
-
-
-
-
-
- 
+/* ======================== main > videos ======================= */
+.videos h2 { /* .promo 안에 있는 h2에 스타일 적용 : 후손 선택자(아들/딸, 손자/손녀) */
+	margin-bottom: 30px;
+	font-size: 30px;
+	color: #000000;
+	font-weight: 900
+} 
